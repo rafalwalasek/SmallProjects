@@ -10,6 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Menu menu = new Menu();
         Lenght lenght = new Lenght();
+        Mass mass = new Mass();
 
         while (shouldContinue) {
             menu.mainMenu();
@@ -23,6 +24,7 @@ public class Main {
                         shouldContinue = false;
                     }
                     case 1 -> lenght.showLenghts();
+                    case 2 -> mass.showMasses();
                     default -> System.out.println("Błąd: Nieznana opcja! Wybierz ponownie.");
                 }
 
