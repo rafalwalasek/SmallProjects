@@ -42,7 +42,18 @@ public class Menu {
         System.out.println("|\tMASS MENU\t|");
         System.out.println("=====================");
         System.out.println(" 0 ... Wyjście");
-        System.out.println(" 1 ...  -> ");
+        System.out.println(" 1 ... Kilogramy -> Gramy");
+        System.out.println(" 2 ... Gramy -> Kilogramy");
+        System.out.println(" 3 ... Kilogramy -> Funty");
+        System.out.println(" 4 ... Funty -> Kilogramy");
+        System.out.println(" 5 ... Kilogramy -> Uncje");
+        System.out.println(" 6 ... Uncje -> Kilogramy");
+        System.out.println(" 7 ... Gramy -> Miligramy");
+        System.out.println(" 8 ... Miligramy -> Gramy");
+        System.out.println(" 9 ... Tony -> Kilogramy");
+        System.out.println(" 10 .. Kilogramy -> Tony");
+        System.out.println(" 11 .. Funty -> Uncje");
+        System.out.println(" 12 .. Uncje -> Funty");
         System.out.println("=====================");
         System.out.print("Wybierz opcję: ");
     }
