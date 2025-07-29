@@ -1,7 +1,7 @@
 package centrumPowiadomien;
 
 public class SMSNotification extends Notification {
-    public SMSNotification(String message) {
+    SMSNotification(String message) {
         super(message);
     }
 

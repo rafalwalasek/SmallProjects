@@ -1,7 +1,7 @@
 package senderSystem;
 
 public class PushNotification extends Notification {
-    public PushNotification(String message) {
+    PushNotification(String message) {
         super(message);
     }
 

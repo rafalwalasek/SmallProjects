@@ -1,7 +1,7 @@
 package centrumPowiadomien;
 
 public class EmailNotification extends Notification {
-    public EmailNotification(String message) {
+    EmailNotification(String message) {
         super(message);
     }
 

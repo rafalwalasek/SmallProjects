@@ -2,10 +2,10 @@ package centrumPowiadomien;
 
 import java.util.Objects;
 
-public abstract class Notification implements Sendable {
+abstract class Notification implements Sendable {
     private String message;
 
-    public Notification(String message) {
+    Notification(String message) {
         this.message = message;
     }
 
